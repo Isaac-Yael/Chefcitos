@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+:root{
+    --yellow: #E6B74D;
+    --brown: #70331B;
+    --soft_brown: #AB5C24;
+    --orange: #E18D51;
+    --white: #FFFFFF;
+    --background: #F4EEE0;
+}
+body{
+    background-color: var(--yellow);
+}
+header{
+    height: 60px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid 2px #CA9F3F;
+    color: #5E4816;
+}
+header h1{
+    font-size: 2.4rem;
+}
+.order-text{
+    background-color: var(--white);
+    height: 20vh;
+    width: 80%;
+    margin: 24px auto;
+    border-radius: 8px;
+    padding: 12px;
+    overflow: scroll;
+}
+.food{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 30px 0 30px;
+    grid-gap: 18px;
+    margin-bottom: 10px;
+}
+.food button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--yellow);
+    margin: auto;
+}
+.food button img{
+    width: 100%;
+    height: 100%;
+}
+.send-delete{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.send-delete button{
+    margin: 6px 0;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+.send{
+    background-color: var(--orange);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--white);
+    padding: 10px 60px;
+}
+.delete{
+    color: var(--white);
+    background-color: var(--brown);
+    font-size: 1.6rem;
+    padding: 10px 40px;
+}
