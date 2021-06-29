@@ -86,3 +86,14 @@ header h1{
     font-size: 1.6rem;
     padding: 10px 40px;
 }
+#order_list{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    /* padding: 10px; */
+}
+.list_style{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #585858;
+}
